@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": false,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "paths": {
+      "poor-ui": ["./src/lib/index.ts"],
+      "@coast/*": ["./src/lib/*"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
