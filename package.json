@@ -8,7 +8,8 @@
   "module": "dist/lib/poor-ui.esm.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "resolutions": {
     "node-sass": "npm:sass@latest"
