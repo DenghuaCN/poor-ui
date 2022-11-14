@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "3.0.3",
+    "cz-conventional-changelog": "^3.3.0",
     "github-markdown-css": "4.0.0",
     "marked": "1.1.1",
     "prismjs": "1.21.0",
@@ -33,6 +34,14 @@
   "dependencies": {
     "vue3-highlightjs": "^1.0.5"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/DenghuaCN/poor-ui#readme",
   "license": "MIT"
+=======
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+>>>>>>> 714b665 (chore: add cz-conventional-changelog@3.3.0)
 }
