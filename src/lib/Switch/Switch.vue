@@ -117,6 +117,7 @@ $activeColor: rgb(60, 190, 241);
 .gulu-switch {
   height: $h;
   width: $h * 1.9;
+  padding: 0;
   border: none;
   background: #bfbfbf;
   border-radius: calc($h / 2);
