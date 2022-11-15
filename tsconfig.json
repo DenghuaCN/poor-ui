@@ -7,7 +7,7 @@
     "moduleResolution": "node",
     "paths": {
       "poor-ui": ["./src/lib/index.ts"],
-      "@coast/*": ["./src/lib/*"]
+      "@poor-ui/*": ["./src/lib/*"]
     }
   },
   "exclude": ["node_modules"]
