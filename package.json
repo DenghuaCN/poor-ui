@@ -42,5 +42,15 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vite",
+    "component",
+    "components",
+    "ui",
+    "frontend",
+    "typescript"
+  ]
 }
