@@ -36,14 +36,11 @@
   "dependencies": {
     "vue3-highlightjs": "^1.0.5"
   },
-<<<<<<< HEAD
   "homepage": "https://github.com/DenghuaCN/poor-ui#readme",
-  "license": "MIT"
-=======
+  "license": "MIT",
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
   }
->>>>>>> 714b665 (chore: add cz-conventional-changelog@3.3.0)
 }
