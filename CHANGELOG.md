@@ -1,31 +1,32 @@
 ## [0.1.2](https://github.com/DenghuaCN/poor-ui/compare/v0.1.1...v0.1.2) (2022-11-15)
 
 
-### 👷‍ Build System | 构建
+### 💄 style
 
-* add package-lock.json and 'yarn-error.log' field in .gitignore ([](https://github.com/DenghuaCN/poor-ui/commit/42d3e5d))
-* **package.json changelog-option.js:** add changelog-option.js ([](https://github.com/DenghuaCN/poor-ui/commit/d468ff2))
-* **tsconfig.json:** change 'paths' field ([](https://github.com/DenghuaCN/poor-ui/commit/ff3d2f1))
-* **yarn.lock:** add yarn.lock file ([](https://github.com/DenghuaCN/poor-ui/commit/dfda677))
+* **switch.vue:** add padding property to component box ([57b9de7](https://github.com/DenghuaCN/poor-ui/commit/57b9de7)) by: **denghua** (denghua.fm@foxmail.com)
 
 
-### 💄 Styles | 风格
+### build 👷 ‍
 
-* **switch.vue:** add padding property to component box ([](https://github.com/DenghuaCN/poor-ui/commit/57b9de7))
-
-
-### 📝 Documentation | 文档
-
-* **readme.md:** * perfect the README.md file ([](https://github.com/DenghuaCN/poor-ui/commit/2b7a245))
-* **readme.md:** change README.md description ([](https://github.com/DenghuaCN/poor-ui/commit/c3e4b4e))
+* add package-lock.json and 'yarn-error.log' field in .gitignore ([42d3e5d](https://github.com/DenghuaCN/poor-ui/commit/42d3e5d)) by: **denghua** (denghua.fm@foxmail.com)
+* **package.json changelog-option.js:** add changelog-option.js ([d468ff2](https://github.com/DenghuaCN/poor-ui/commit/d468ff2)) by: **denghua** (denghua.fm@foxmail.com)
+* **tsconfig.json:** change 'paths' field ([ff3d2f1](https://github.com/DenghuaCN/poor-ui/commit/ff3d2f1)) by: **denghua** (denghua.fm@foxmail.com)
+* **yarn.lock:** add yarn.lock file ([dfda677](https://github.com/DenghuaCN/poor-ui/commit/dfda677)) by: **denghua** (denghua.fm@foxmail.com)
 
 
-### 🔧 Continuous Integration | CI 配置
+### ci 🔧
 
-* **package.json:** add package.json 'keywords' field ([](https://github.com/DenghuaCN/poor-ui/commit/d150846))
+* **package.json:** add package.json 'keywords' field ([d150846](https://github.com/DenghuaCN/poor-ui/commit/d150846)) by: **denghua** (denghua.fm@foxmail.com)
 
 
-### BREAKING CHANGE
+### docs 📝
+
+* **changelog.md:** publish poor-ui@0.1.2 ([ebd0b29](https://github.com/DenghuaCN/poor-ui/commit/ebd0b29)) by: **denghua** (denghua.fm@foxmail.com)
+* **readme.md:** * perfect the README.md file ([2b7a245](https://github.com/DenghuaCN/poor-ui/commit/2b7a245)) by: **denghua** (denghua.fm@foxmail.com)
+* **readme.md:** change README.md description ([c3e4b4e](https://github.com/DenghuaCN/poor-ui/commit/c3e4b4e)) by: **denghua** (denghua.fm@foxmail.com)
+
+
+### 💥 BREAKING CHANGES
 
 * **package.json changelog-option.js:** change create CHANGELOG.md flow
 
@@ -34,30 +35,30 @@
 ## [0.1.1](https://github.com/DenghuaCN/poor-ui/compare/v0.1.0...v0.1.1) (2022-11-15)
 
 
-### 🎫 Chores | 其他更新
+### chore 🎫
 
-* change package.json changelog field ([](https://github.com/DenghuaCN/poor-ui/commit/42bb920))
+* change package.json changelog field ([42bb920](https://github.com/DenghuaCN/poor-ui/commit/42bb920)) by: **denghua** (denghua.fm@foxmail.com)
 
 
-### 🐛 Bug Fixes | 修复Bug
+### fix 🐛
 
-* **package.json:** fix package.json version field to corrected ([](https://github.com/DenghuaCN/poor-ui/commit/7c1330a))
+* **package.json:** fix package.json version field to corrected ([7c1330a](https://github.com/DenghuaCN/poor-ui/commit/7c1330a)) by: **denghua** (denghua.fm@foxmail.com)
 
 
 
 # [0.1.0](https://github.com/DenghuaCN/poor-ui/compare/9ccac46...v0.1.0) (2022-11-15)
 
 
-### ✨ Features | 新功能
+### chore 🎫
 
-* ready publish poor-ui@0.1.0 ([](https://github.com/DenghuaCN/poor-ui/commit/a7d2bca))
+* add 'build:lib" script ([8ac6fa7](https://github.com/DenghuaCN/poor-ui/commit/8ac6fa7)) by: **denghua** (denghua.fm@foxmail.com)
+* add conventional-changelog ([3d3e7f7](https://github.com/DenghuaCN/poor-ui/commit/3d3e7f7)) by: **denghua** (denghua.fm@foxmail.com)
+* add cz-conventional-changelog@3.3.0 ([9ccac46](https://github.com/DenghuaCN/poor-ui/commit/9ccac46)) by: **denghua** (denghua.fm@foxmail.com)
 
 
-### 🎫 Chores | 其他更新
+### feat ✨
 
-* add 'build:lib" script ([](https://github.com/DenghuaCN/poor-ui/commit/8ac6fa7))
-* add conventional-changelog ([](https://github.com/DenghuaCN/poor-ui/commit/3d3e7f7))
-* add cz-conventional-changelog@3.3.0 ([](https://github.com/DenghuaCN/poor-ui/commit/9ccac46))
+* ready publish poor-ui@0.1.0 ([a7d2bca](https://github.com/DenghuaCN/poor-ui/commit/a7d2bca)) by: **denghua** (denghua.fm@foxmail.com)
 
 
 

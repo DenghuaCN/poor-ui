@@ -10,14 +10,17 @@
     "dev": "vite",
     "build": "vite build",
     "build:lib": "rollup -c",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0  -n ./changelog-option.js"
+    "changelog": "conventional-changelog -p cmyr-config -i CHANGELOG.md -s -r 0"
   },
   "resolutions": {
     "node-sass": "npm:sass@latest"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "3.0.3",
+    "commitizen": "^4.2.5",
     "compare-func": "^2.0.0",
+    "conventional-changelog-cli": "^2.2.2",
+    "conventional-changelog-cmyr-config": "^2.0.4",
     "cz-conventional-changelog": "^3.3.0",
     "github-markdown-css": "4.0.0",
     "marked": "1.1.1",
@@ -39,11 +42,6 @@
   },
   "homepage": "https://github.com/DenghuaCN/poor-ui#readme",
   "license": "MIT",
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "keywords": [
     "vue",
     "vue3",
@@ -53,5 +51,61 @@
     "ui",
     "frontend",
     "typescript"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DenghuaCN/poor-ui.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "changelog": {
+    "bugsUrl": "https://github.com/DenghuaCN/poor-ui/issues/",
+    "authorName": true,
+    "authorEmail": true,
+    "language": "en",
+    "settings": {
+      "feat": {
+        "title": "feat ✨"
+      },
+      "fix": {
+        "title": "fix 🐛"
+      },
+      "perf": {
+        "title": "perf ⚡"
+      },
+      "revert": {
+        "title": "revert ⏪"
+      },
+      "refactor": {
+        "title": "refactor ♻"
+      },
+      "docs": {
+        "title": "docs 📝",
+        "enable": true
+      },
+      "style": {
+        "title": "💄 style",
+        "enable": true
+      },
+      "test": {
+        "title": "test ✅",
+        "enable": true
+      },
+      "build": {
+        "title": "build 👷 ‍",
+        "enable": true
+      },
+      "ci": {
+        "title": "ci 🔧",
+        "enable": true
+      },
+      "chore": {
+        "title": "chore 🎫",
+        "enable": true
+      }
+    }
+  }
 }
