@@ -23,12 +23,12 @@ jobs:
       - name: Build Website
         run: yarn build
 
-      - name: Deploy
+      - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.DEPLOY_KEY }}
-          BRANCH: gh-pages
-          FOLDER: dist
-          GIT_CONFIG_NAME: denghua
-          GIT_CONFIG_EMAIL: denghua.fm@foxmail.com
-          COMMIT_MESSAGE: poor-ui website deploy done
+          token: ${{ secrets.DEPLOY_KEY }}
+          branch: gh-pages
+          folder: dist
+          git-config-name: denghua
+          git-config-email: denghua.fm@foxmail.com
+          commit-message: poor-ui website deploy done
