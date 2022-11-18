@@ -1,5 +1,6 @@
 # Poor UI
 
+![npm](https://img.shields.io/npm/v/poor-ui)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/DenghuaCN/poor-ui?style=flat-square)
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/DenghuaCN/poor-ui/deploy%20poor-ui%20website/main?style=flat-square)
 ![vue version](https://img.shields.io/github/package-json/dependency-version/DenghuaCN/poor-ui/dev/vue?style=flat-square)
