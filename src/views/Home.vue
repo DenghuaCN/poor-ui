@@ -6,7 +6,7 @@
       <h1>Poor UI</h1>
       <h2>a UI parody of Material Design.</h2>
       <p class="actions">
-        <a href="https://github.com">GitHub</a>
+        <a href="https://github.com/DenghuaCN/poor-ui">GitHub</a>
         <router-link to="/doc">Get Stared</router-link>
       </p>
     </div>
