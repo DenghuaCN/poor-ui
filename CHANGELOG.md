@@ -1,3 +1,32 @@
+## [0.1.3](https://github.com/DenghuaCN/poor-ui/compare/v0.1.2...v0.1.3) (2022-11-18)
+
+
+### build 👷 ‍
+
+* update create CHANGELOG.md flow ([1de02e6](https://github.com/DenghuaCN/poor-ui/commit/1de02e6)) by: **denghua** (denghua.fm@foxmail.com)
+
+
+### ci 🔧
+
+* fix JamesIves/github-pages-deploy-action version ([484810b](https://github.com/DenghuaCN/poor-ui/commit/484810b)) by: **denghua** (denghua.fm@foxmail.com)
+* grade actions/checkout@v3 and actions/setup-node@v3 ([052382a](https://github.com/DenghuaCN/poor-ui/commit/052382a)) by: **denghua** (denghua.fm@foxmail.com)
+* grade JamesIves/github-pages-deploy-action@4.4.1 ([cddebf3](https://github.com/DenghuaCN/poor-ui/commit/cddebf3)) by: **denghua** (denghua.fm@foxmail.com)
+* **main-deploy.yml:** grade JamesIves/github-pages-deploy-action@4 ([5e7c128](https://github.com/DenghuaCN/poor-ui/commit/5e7c128)) by: **denghua** (denghua.fm@foxmail.com)
+* migration JamesIves/github-pages-deploy-action ([e44ef20](https://github.com/DenghuaCN/poor-ui/commit/e44ef20)) by: **denghua** (denghua.fm@foxmail.com)
+
+
+### docs 📝
+
+* add weight tag ([bbe22eb](https://github.com/DenghuaCN/poor-ui/commit/bbe22eb)) by: **denghua** (denghua.fm@foxmail.com)
+* **readme.md:** add npm shields ([292e9ea](https://github.com/DenghuaCN/poor-ui/commit/292e9ea)) by: **denghua** (denghua.fm@foxmail.com)
+
+
+### fix 🐛
+
+* fix project github address to correct ([eef9213](https://github.com/DenghuaCN/poor-ui/commit/eef9213)) by: **denghua** (denghua.fm@foxmail.com)
+
+
+
 ## [0.1.2](https://github.com/DenghuaCN/poor-ui/compare/v0.1.1...v0.1.2) (2022-11-15)
 
 
