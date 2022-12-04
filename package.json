@@ -30,6 +30,7 @@
     "rollup-plugin-terser": "7.0.2",
     "sass": "1.54.5",
     "vite": "3.0.9",
+    "vitest": "^0.25.3",
     "vue": "^3.2.37",
     "vue-router": "4"
   },
