@@ -1,13 +1,18 @@
+/// <reference types="vitest" />
 
 import * as path from 'path';
 
+import { defineConfig } from 'vite';
 import { md } from "./plugins/md";
 import { demo } from "./plugins/demo";
-import vue from '@vitejs/plugin-vue'
+import vue from '@vitejs/plugin-vue';
 
-export default {
+
+export default defineConfig({
   base: './',
-  assetsDir: 'assets',
+  build: {
+    assetsDir: 'assets',
+  },
   plugins: [vue(), demo(), md()],
   resolve: {
     alias: {
@@ -15,4 +20,17 @@ export default {
       '@poor': path.resolve('./src/lib'),
     },
   },
-};
+  test: {
+    environment: 'jsdom',
+    exclude: [
+      '**/node_modules/**',
+      '**/dist/**',
+      '**/cypress/**',
+      '**/.{idea,git,cache,output,temp}/**',
+      'lib/__tests__/utils',
+    ],
+    coverage: {
+      reporter: ['clover', 'html'],
+    },
+  }
+});
