@@ -1,3 +1,19 @@
+## [0.1.4](https://github.com/DenghuaCN/poor-ui/compare/v0.1.3...v0.1.4) (2022-12-14)
+
+
+### feat ✨
+
+* add Vitest Test Framework ([f85795f](https://github.com/DenghuaCN/poor-ui/commit/f85795f)) by: **denghua** (denghua.fm@foxmail.com)
+
+
+### test ✅
+
+* add unit test file with 'button.spec.ts' ([505b6b8](https://github.com/DenghuaCN/poor-ui/commit/505b6b8)) by: **denghua** (denghua.fm@foxmail.com)
+* add Vitest dependent, update package.json script field(vitest script) ([db17632](https://github.com/DenghuaCN/poor-ui/commit/db17632)) by: **denghua** (denghua.fm@foxmail.com)
+* **switch:** add switch.sepc.ts to Switch component ([d27fb6c](https://github.com/DenghuaCN/poor-ui/commit/d27fb6c)) by: **denghua** (denghua.fm@foxmail.com)
+
+
+
 ## [0.1.3](https://github.com/DenghuaCN/poor-ui/compare/v0.1.2...v0.1.3) (2022-11-18)
 
 
@@ -19,6 +35,11 @@
 
 * add weight tag ([bbe22eb](https://github.com/DenghuaCN/poor-ui/commit/bbe22eb)) by: **denghua** (denghua.fm@foxmail.com)
 * **readme.md:** add npm shields ([292e9ea](https://github.com/DenghuaCN/poor-ui/commit/292e9ea)) by: **denghua** (denghua.fm@foxmail.com)
+
+
+### feat ✨
+
+* publish poor-ui@0.1.3 ([3227f81](https://github.com/DenghuaCN/poor-ui/commit/3227f81)) by: **denghua** (denghua.fm@foxmail.com)
 
 
 ### fix 🐛
