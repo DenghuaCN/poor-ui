@@ -402,10 +402,11 @@ import { ref } from "vue";
 import { Input } from "poor-ui";
 
 const value = ref('');
-<\/script>`,t.__sourceCodeTitle=" \u57FA\u672C\u4F7F\u7528 "}typeof Sc=="function"&&Sc(Hm);const Vm=ue({__name:"InputClearable.demo",setup(t){const e=he("");return(n,r)=>(K(),we(q(pt),{value:e.value,"onUpdate:value":r[0]||(r[0]=a=>e.value=a),placeholder:"clearable",clearable:""},null,8,["value"]))}});function fc(t){t.__sourceCode=`<template>
+<\/script>`,t.__sourceCodeTitle=" \u57FA\u672C\u4F7F\u7528 "}typeof Sc=="function"&&Sc(Hm);const Vm=ue({__name:"InputClearable.demo",setup(t){const e=he(""),n=()=>{console.log("input value is clean")};return(r,a)=>(K(),we(q(pt),{value:e.value,"onUpdate:value":a[0]||(a[0]=i=>e.value=i),placeholder:"clearable",onClear:n,clearable:""},null,8,["value"]))}});function fc(t){t.__sourceCode=`<template>
   <Input
     v-model:value="value"
     placeholder="clearable"
+    @clear="clearHandle"
     clearable
   />
 </template>
@@ -415,6 +416,11 @@ import { ref } from "vue";
 import { Input } from "poor-ui";
 
 const value = ref('');
+
+const clearHandle = () => {
+  console.log('input value is clean');
+}
+
 <\/script>`,t.__sourceCodeTitle=" clearable "}typeof fc=="function"&&fc(Vm);const $m=ue({__name:"InputDisabled.demo",setup(t){const e=he("disabled");return(n,r)=>(K(),we(q(pt),{value:e.value,"onUpdate:value":r[0]||(r[0]=a=>e.value=a),disabled:""},null,8,["value"]))}});function Tc(t){t.__sourceCode=`<template>
   <Input v-model:value="value" disabled />
 </template>
