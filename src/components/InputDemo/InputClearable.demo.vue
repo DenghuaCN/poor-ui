@@ -6,6 +6,7 @@
   <Input
     v-model:value="value"
     placeholder="clearable"
+    @clear="clearHandle"
     clearable
   />
 </template>
@@ -15,4 +16,9 @@ import { ref } from "vue";
 import { Input } from "poor-ui";
 
 const value = ref('');
+
+const clearHandle = () => {
+  console.log('input value is clean');
+}
+
 </script>
