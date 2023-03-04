@@ -1,9 +1,31 @@
+# [0.2.0](https://github.com/DenghuaCN/poor-ui/compare/v0.1.4...v0.2.0) (2023-03-04)
+
+
+### build 👷 ‍
+
+* add Type Declartion file and modify tsconfig.json ([e484c7c](https://github.com/DenghuaCN/poor-ui/commit/e484c7c)) by: **denghua** (denghua.fm@foxmail.com)
+
+
+### feat ✨
+
+* add Container component and styles ([0bb928f](https://github.com/DenghuaCN/poor-ui/commit/0bb928f)) by: **denghua** (denghua.fm@foxmail.com)
+* supplement input component 'clear' event and event handle ([ecda755](https://github.com/DenghuaCN/poor-ui/commit/ecda755)) by: **denghua** (denghua.fm@foxmail.com)
+
+
+### test ✅
+
+* add input component 'input.spec.ts' with unit test file ([61f038e](https://github.com/DenghuaCN/poor-ui/commit/61f038e)) by: **denghua** (denghua.fm@foxmail.com)
+* add tabs comopnent unit test file ([79affa2](https://github.com/DenghuaCN/poor-ui/commit/79affa2)) by: **denghua** (denghua.fm@foxmail.com)
+
+
+
 ## [0.1.4](https://github.com/DenghuaCN/poor-ui/compare/v0.1.3...v0.1.4) (2022-12-14)
 
 
 ### feat ✨
 
 * add Vitest Test Framework ([f85795f](https://github.com/DenghuaCN/poor-ui/commit/f85795f)) by: **denghua** (denghua.fm@foxmail.com)
+* publish poor-ui@0.1.4 ([9964ab2](https://github.com/DenghuaCN/poor-ui/commit/9964ab2)) by: **denghua** (denghua.fm@foxmail.com)
 
 
 ### test ✅
