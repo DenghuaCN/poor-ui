@@ -1,0 +1,13 @@
+.gulu-container {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+
+  &.gulu-container-aside {
+    flex-direction: row;
+  }
+}
+
+.gulu-content {
+  flex-grow: 1;
+}

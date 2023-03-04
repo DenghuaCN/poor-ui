@@ -1,3 +1,11 @@
+export {
+  Header as Header,
+  Content as Content,
+  Aside as Aside,
+  Footer as Footer,
+  Container as Container
+} from './Container';
+
 export { default as Switch } from './Switch/Switch.vue';
 export { default as Button } from './Button/Button.vue';
 export { default as Tabs } from './Tabs/Tabs.vue';

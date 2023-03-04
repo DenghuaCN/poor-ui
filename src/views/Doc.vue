@@ -37,6 +37,7 @@
   const menuVisible = inject < Ref < boolean >> ("menuVisible");
 
   const components = ref<{name: string, to: string}[]>([
+    {name: 'Container', to: '/doc/container'},
     {name: 'Switch', to: '/doc/switch'},
     {name: 'Button', to: '/doc/button'},
     {name: 'Dialog', to: '/doc/dialog'},
