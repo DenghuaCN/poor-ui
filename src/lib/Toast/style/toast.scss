@@ -1,0 +1,78 @@
+$popoverIndex: 100;
+
+// success
+$success-bg-color: #f0f9eb;
+$success-text-color: #67c23a;
+$success-border-color: #e1f3d8;
+
+// warning
+$warning-bg-color: #fdf6ec;
+$warning-text-color: #e6a23c;
+$warning-border-color: #faecd8;
+
+// error
+$error-bg-color: #fef0f0;
+$error-text-color: #f56c6c;
+$error-border-color: #fde2e2;
+
+// secondary
+$secondary-bg-color: #f4f4f5;
+$secondary-text-color: #909399;
+$secondary-border-color: #e9e9eb;
+
+.common-toast {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  min-width: 380px;
+  border-radius: 5px;
+  background: #fff;
+  color: #000;
+  z-index: $popoverIndex;
+  box-shadow: 0 5px 5px 0px rgba(0, 0, 0, 0.14);
+  padding: 10px 15px;
+  transition: top 0.3s;
+
+  > .common-toast-close {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    cursor: pointer;
+    color: #c0c4cc;
+    font-size: 20px;
+
+    &:hover {
+      color: #909399;
+    }
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-secondary {
+    background-color: $secondary-bg-color;
+    color: $secondary-text-color;
+    border-color: $secondary-border-color;
+  }
+
+  &-success {
+    background-color: $success-bg-color;
+    color: $success-text-color;
+    border-color: $success-border-color;
+  }
+
+  &-warning {
+    background-color: $warning-bg-color;
+    color: $warning-text-color;
+    border-color: $warning-border-color;
+  }
+
+  &-error {
+    background-color: $error-bg-color;
+    color: $error-text-color;
+    border-color: $error-border-color;
+  }
+}

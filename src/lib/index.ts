@@ -6,6 +6,7 @@ export {
   Container as Container
 } from './Container';
 
+export { Col, Row } from './Layout';
 export { default as Switch } from './Switch/Switch.vue';
 export { default as Button } from './Button/Button.vue';
 export { default as Tabs } from './Tabs/Tabs.vue';

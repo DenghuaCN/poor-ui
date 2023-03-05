@@ -8,6 +8,7 @@ import TabsDemo from "../components/TabsDemo/index.vue";
 import ToastDemo from "../components/ToastDemo/index.vue";
 import InputDemo from '../components/InputDemo/index.vue';
 import ContainerDemo from '../components/ContainerDemo/index.vue';
+import LayoutDemo from '../components/LayoutDemo/index.vue';
 
 import { h } from 'vue';
 import Markdown from '../components/Markdown.vue';
@@ -36,6 +37,7 @@ export const router = createRouter({
         { path: "dialog", component: DialogDemo },
         { path: "toast", component: ToastDemo },
         { path: "container", component: ContainerDemo },
+        { path: "layout", component: LayoutDemo }
       ],
     },
   ],

@@ -20,8 +20,3 @@
   });
 
 </script>
-
-
-<style lang="scss">
-@import './style/container.scss'
-</style>

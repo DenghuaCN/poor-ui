@@ -38,6 +38,7 @@
 
   const components = ref<{name: string, to: string}[]>([
     {name: 'Container', to: '/doc/container'},
+    {name: 'Layout', to: '/doc/layout'},
     {name: 'Switch', to: '/doc/switch'},
     {name: 'Button', to: '/doc/button'},
     {name: 'Dialog', to: '/doc/dialog'},
